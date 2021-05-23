@@ -1,0 +1,101 @@
+
+<div class="row enquirycontainer">
+  <div class="col-md-4">  
+      <div class="form-row shadow p-3 mb-5 bg-white rounded">
+        
+        <div class="col" style="width: max-content;" >
+            <div class="row"><Label style="text-align: left;"><small>You may Reach us at</small></Label></div>            
+              <div class="row"><label>Managing Director</label></div>
+              <div class="row"><label style="text-align:end;">Kiran </label></div>
+              <div class="row">
+              <div class="col"><img src="assets/telephone-inbound.svg" alt="Mobile Symbol" class="img-fluid"> </div>
+              <div class="col" style="text-align: start;">9701568855</div>
+            </div> 
+            <div class="row">
+              <div class="col"><img src="assets/mailbox.svg" alt="Email Symbol" class="img-fluid"> </div>
+              <div class="col" style="text-align: left;">mymail@mydomain.com</div>
+            </div>      
+            </div>
+  
+        </div>
+   
+  </div>
+
+  <div class="col-md-8">
+    <form class="body needs-validation body" novalidate>
+      <div class="form-row shadow p-3 mb-5 bg-white rounded">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01">Name</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="name" value="Name here!" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">Mobile No</label>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Mobile" value="Mobile no" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomUsername">Email</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+            </div>
+            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please enter valid email.
+            </div>
+          </div>
+        </div>   
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom03">City</label>
+          <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom04">State</label>
+          <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">Pin</label>
+          <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+          <div class="invalid-feedback">
+            Please provide a valid Pincode.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Enquiry Now</button>  
+  </div>
+    </form>    
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+  </div>
+</div>
+

@@ -1,0 +1,105 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #EFEFEF;
+  
+}
+.nav-own{
+    background-color: #FF3B3F;
+}
+.phote{
+    
+    margin:6%;
+    padding: 1rem;   
+}
+.brandlogo{
+  
+    background-color:transparent;
+    border: 0px;
+    margin: 35%  1% 1%;
+ }
+
+.hdtext{
+    margin: 35%  1% 1%;
+    padding-top: 10%;
+    font-size: 8vw;
+    align-items: center; 
+      
+}
+.introbody{
+   margin: 5rem;
+
+}
+.p1{
+    text-indent: 3rem;
+    background-color: #CAEBF2;
+    color:#A9A9A9;
+    font-weight:bold;
+    font-size:large;
+    text-align: justify;
+    
+}
+.p2{
+    background-color: #CAEBF2;
+    color:#A9A9A9;
+    font-weight:bold;
+    font-size:large;
+    text-align: justify;
+}
+.names{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+    color: blue;
+    
+}
+
+
+.player-container{
+    position: relative;
+    width: 97%;
+    height: 0;
+    padding-bottom: 54.56%;
+    margin: 5% 4% 4% 4%;
+    align-items: center;
+}
+.player-container iframe{
+
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    align-items: center;
+}
+
+.enquirycontainer{
+      
+    margin: 2% 8%; 
+
+}
+
+.old-event{
+    
+    margin: 5% 4% 4% 4%;
+    align-items: center; 
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video-container iframe {
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    padding-right: 8vw;
+    width: 100%;
+    height: 56.25%;
+}
+
+   
+    

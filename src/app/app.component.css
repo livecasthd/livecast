@@ -1,0 +1,38 @@
+*{
+
+    box-sizing:border-box;
+    font-size: 1rem;
+    border-color: blue;
+    border: 2rem;
+  
+}
+
+
+.a {
+
+    list-style-type:decimal;
+    margin-left: 40px;
+    float: left;
+     
+    
+}
+.b{
+    list-style-type:square;
+    margin-left: 40px;
+}
+.head2{
+
+            padding-left: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            font-variant-caps: all-petite-caps;
+           
+    
+    }
+
+.fieldset{
+
+    
+    border-width: thin;
+
+}
